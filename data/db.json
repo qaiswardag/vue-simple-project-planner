@@ -1,18 +1,6 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "1111",
-      "details": "Lorem ipsum",
-      "complete": false
-    },
-    {
-      "id": 2,
-      "title": "øøqais2 Sreate new homepage banner",
-      "details": "Lorem ipsum\nqais",
-      "complete": true
-    },
-    {
       "id": 3,
       "title": "3 Po new homepage banner",
       "details": "Lorem ipsum",
@@ -23,6 +11,18 @@
       "title": "4 Losre new homepage banner",
       "details": "Lorem ipsum",
       "complete": false
+    },
+    {
+      "title": "1 Po new homepage banner",
+      "details": "t",
+      "complete": false,
+      "id": 5
+    },
+    {
+      "title": "lorem ipsum",
+      "details": "test og test",
+      "complete": true,
+      "id": 6
     }
   ]
 }
