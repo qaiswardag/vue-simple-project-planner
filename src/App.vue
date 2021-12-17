@@ -25,10 +25,8 @@ body {
   margin: 0 auto;
   color: #555;
 }
-
 #nav {
   padding: 2rem 2rem;
-
   display: flex;
   text-align: center;
   justify-content: center;

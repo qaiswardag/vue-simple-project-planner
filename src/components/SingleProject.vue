@@ -3,6 +3,9 @@
     <div class="actions">
       <h3 @click="showDetails = !showDetails">{{project.title}}</h3>
       <div class="icons">
+        <router-link :to="{name: 'Project', params:{id: project.id}}">
+          <span class="material-icons">link</span>
+        </router-link>
         <router-link :to="{name: 'EditProject', params:{id: project.id}}">
           <span class="material-icons">edit</span>
         </router-link>
@@ -69,7 +72,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
-
 .icons {
   display: flex;
   justify-content: center;
