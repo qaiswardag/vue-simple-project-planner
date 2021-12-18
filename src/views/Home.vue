@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <FilterNav @filterChange="current = $event" :current="current"></FilterNav>
+    <FilterNavigation @filterChange="current = $event" :current="current"></FilterNavigation>
     <div v-if="projects.length">
       <!-- <div v-for="project in projects" :key="project.id"> -->
       <div v-for="project in filteredProjects" :key="project.id">
@@ -12,9 +12,9 @@
 
 <script>
 import SingleProject from '../components/SingleProject.vue'
-import FilterNav from '../components/FilterNav.vue'
+import FilterNavigation from '../components/FilterNavigation.vue'
 export default {
-  components: { SingleProject, FilterNav },
+  components: { SingleProject, FilterNavigation },
   data() {
     return {
       projects: [],
